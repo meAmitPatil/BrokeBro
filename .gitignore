@@ -1,0 +1,71 @@
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore compiled Python files
+*.so
+
+# Ignore Jupyter Notebook checkpoints (if using)
+.ipynb_checkpoints/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency files (if using Poetry or Pipenv)
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# Ignore API keys and credentials (important!)
+.env
+*.pem
+*.crt
+*.key
+
+# Ignore Node.js-related files (if any frontend in your repo)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# Ignore Docker files (if using Docker)
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore model and cache files (if using AI/ML models)
+models/
+*.h5
+*.pt
+*.onnx
+*.ckpt
+*.tflite
+
+# Ignore temporary build artifacts
+build/
+dist/
+*.egg-info/
+
+
+server/embeddings.py
+server/memory.py
