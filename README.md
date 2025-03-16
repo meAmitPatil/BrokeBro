@@ -1,4 +1,4 @@
-# **BrokeBro**
+# **BrokeBro (HackHayward AI Track Winner)**
 
 BrokeBro is an AI-powered voice assistant that calls you in real-time to stop impulsive spending, specifically on food delivery apps like DoorDash.
 
